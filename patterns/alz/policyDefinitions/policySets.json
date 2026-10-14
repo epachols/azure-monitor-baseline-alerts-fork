@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.48.1.52935",
-      "templateHash": "13455263790345472874"
+      "templateHash": "5827921044315137530"
     }
   },
   "parameters": {
@@ -1637,14 +1637,13 @@
             "type": "string",
             "defaultValue": "PT15M",
             "allowedValues": [
-              "PT1M",
               "PT5M",
               "PT15M",
               "PT30M",
               "PT1H",
               "PT6H",
               "PT12H",
-              "P1D"
+              "PT24H"
             ],
             "metadata": {
               "displayName": "VM Data Disk Write Latency Window Size",
@@ -4010,14 +4009,13 @@
             "type": "string",
             "defaultValue": "PT15M",
             "allowedValues": [
-              "PT1M",
               "PT5M",
               "PT15M",
               "PT30M",
               "PT1H",
               "PT6H",
               "PT12H",
-              "P1D"
+              "PT24H"
             ],
             "metadata": {
               "displayName": "Hybrid VM Data Disk Write Latency Window Size",
@@ -8984,14 +8982,13 @@
             "type": "string",
             "defaultValue": "PT15M",
             "allowedValues": [
-              "PT1M",
               "PT5M",
               "PT15M",
               "PT30M",
               "PT1H",
               "PT6H",
               "PT12H",
-              "P1D"
+              "PT24H"
             ],
             "metadata": {
               "displayName": "VMSS Data Disk Write Latency Window Size",
@@ -12036,14 +12033,13 @@
             "type": "string",
             "defaultValue": "PT15M",
             "allowedValues": [
-              "PT1M",
               "PT5M",
               "PT15M",
               "PT30M",
               "PT1H",
               "PT6H",
               "PT12H",
-              "P1D"
+              "PT24H"
             ],
             "metadata": {
               "displayName": "VM Data Disk Write Latency Window Size",
