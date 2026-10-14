@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.48.1.52935",
-      "templateHash": "6345007820176349862"
+      "templateHash": "1722563520682385506"
     }
   },
   "parameters": {
@@ -1170,11 +1170,7 @@
             "type": "string",
             "defaultValue": "GreaterThan",
             "allowedValues": [
-              "Equals",
-              "GreaterThan",
-              "GreaterThanOrEqual",
-              "LessThan",
-              "LessThanOrEqual"
+              "GreaterThan"
             ],
             "metadata": {
               "displayName": "VM Percent CPU Operator",
@@ -8537,11 +8533,7 @@
             "type": "string",
             "defaultValue": "GreaterThan",
             "allowedValues": [
-              "Equals",
-              "GreaterThan",
-              "GreaterThanOrEqual",
-              "LessThan",
-              "LessThanOrEqual"
+              "GreaterThan"
             ],
             "metadata": {
               "displayName": "VMSS Percent CPU Operator",

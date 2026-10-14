@@ -1053,11 +1053,7 @@
         "type": "string",
         "defaultValue": "GreaterThan",
         "allowedValues": [
-          "Equals",
-          "GreaterThan",
-          "GreaterThanOrEqual",
-          "LessThan",
-          "LessThanOrEqual"
+          "GreaterThan"
         ],
         "metadata": {
           "displayName": "VMSS Percent CPU Operator",
