@@ -689,7 +689,6 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
