@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.48.1.52935",
-      "templateHash": "1722563520682385506"
+      "templateHash": "9398454011420215074"
     }
   },
   "parameters": {
@@ -1077,14 +1077,13 @@
             "type": "string",
             "defaultValue": "PT15M",
             "allowedValues": [
-              "PT1M",
               "PT5M",
               "PT15M",
               "PT30M",
               "PT1H",
               "PT6H",
               "PT12H",
-              "P1D"
+              "PT24H"
             ],
             "metadata": {
               "displayName": "VM Percent CPU Window Size",
@@ -3458,14 +3457,13 @@
             "type": "string",
             "defaultValue": "PT15M",
             "allowedValues": [
-              "PT1M",
               "PT5M",
               "PT15M",
               "PT30M",
               "PT1H",
               "PT6H",
               "PT12H",
-              "P1D"
+              "PT24H"
             ],
             "metadata": {
               "displayName": "Hybrid VM Percent CPU Window Size",
@@ -8440,14 +8438,13 @@
             "type": "string",
             "defaultValue": "PT15M",
             "allowedValues": [
-              "PT1M",
               "PT5M",
               "PT15M",
               "PT30M",
               "PT1H",
               "PT6H",
               "PT12H",
-              "P1D"
+              "PT24H"
             ],
             "metadata": {
               "displayName": "VMSS Percent CPU Window Size",
@@ -11540,14 +11537,13 @@
             "type": "string",
             "defaultValue": "PT15M",
             "allowedValues": [
-              "PT1M",
               "PT5M",
               "PT15M",
               "PT30M",
               "PT1H",
               "PT6H",
               "PT12H",
-              "P1D"
+              "PT24H"
             ],
             "metadata": {
               "displayName": "VM Percent CPU Window Size",
