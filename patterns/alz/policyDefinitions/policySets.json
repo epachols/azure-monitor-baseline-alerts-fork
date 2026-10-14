@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.48.1.52935",
-      "templateHash": "5176858754212328175"
+      "templateHash": "12653649949206212102"
     }
   },
   "parameters": {
@@ -933,14 +933,13 @@
             "type": "string",
             "defaultValue": "PT15M",
             "allowedValues": [
-              "PT1M",
               "PT5M",
               "PT15M",
               "PT30M",
               "PT1H",
               "PT6H",
               "PT12H",
-              "P1D"
+              "PT24H"
             ],
             "metadata": {
               "displayName": "VM OS Disk Space Window Size",
@@ -3320,14 +3319,13 @@
             "type": "string",
             "defaultValue": "PT15M",
             "allowedValues": [
-              "PT1M",
               "PT5M",
               "PT15M",
               "PT30M",
               "PT1H",
               "PT6H",
               "PT12H",
-              "P1D"
+              "PT24H"
             ],
             "metadata": {
               "displayName": "Hybrid VM OS Disk Space Window Size",
@@ -8304,14 +8302,13 @@
             "type": "string",
             "defaultValue": "PT15M",
             "allowedValues": [
-              "PT1M",
               "PT5M",
               "PT15M",
               "PT30M",
               "PT1H",
               "PT6H",
               "PT12H",
-              "P1D"
+              "PT24H"
             ],
             "metadata": {
               "displayName": "VMSS OS Disk Space Window Size",
@@ -11418,14 +11415,13 @@
             "type": "string",
             "defaultValue": "PT15M",
             "allowedValues": [
-              "PT1M",
               "PT5M",
               "PT15M",
               "PT30M",
               "PT1H",
               "PT6H",
               "PT12H",
-              "P1D"
+              "PT24H"
             ],
             "metadata": {
               "displayName": "VM OS Disk Space Window Size",
