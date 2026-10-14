@@ -1232,14 +1232,13 @@
         "type": "string",
         "defaultValue": "PT15M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "VMSS Data Disk Space Window Size",
