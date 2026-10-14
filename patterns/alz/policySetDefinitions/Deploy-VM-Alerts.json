@@ -833,7 +833,6 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -961,14 +960,13 @@
         "type": "string",
         "defaultValue": "PT15M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "VM Percent CPU Window Size",
@@ -979,7 +977,6 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -1103,14 +1100,13 @@
         "type": "string",
         "defaultValue": "PT15M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "VM Percent Memory Window Size",
@@ -1121,7 +1117,6 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -1241,14 +1236,13 @@
         "type": "string",
         "defaultValue": "PT15M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "VM Data Disk Space Window Size",
@@ -1259,7 +1253,6 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -1387,14 +1380,13 @@
         "type": "string",
         "defaultValue": "PT15M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "VM Data Disk Read Latency Window Size",
@@ -1405,7 +1397,6 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -1533,14 +1524,13 @@
         "type": "string",
         "defaultValue": "PT15M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "VM Data Disk Write Latency Window Size",
@@ -1551,7 +1541,6 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",

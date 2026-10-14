@@ -62,14 +62,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "Key Vault Request Window Size",
@@ -80,7 +79,6 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -128,16 +126,15 @@
       },
       "KvAvailabilityWindowSize": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "Key Vault Availability Window Size",
@@ -146,9 +143,8 @@
       },
       "KvAvailabilityEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -206,14 +202,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "Key Vault Latency Availability Window Size",
@@ -224,7 +219,6 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -282,14 +276,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "Key Vault Capacity Window Size",
@@ -298,9 +291,8 @@
       },
       "KVCapacityEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -366,14 +358,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "Storage Account Availability Window Size",
@@ -384,7 +375,6 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -462,14 +452,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "PIP DDoS Attack Window Size",
@@ -480,7 +469,6 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -538,14 +526,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "PIP Packets In DDoS Window Size",
@@ -556,7 +543,6 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -614,14 +600,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "PIP VIP Availability Window Size",
@@ -630,9 +615,8 @@
       },
       "PIPVIPAvailabilityEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -690,14 +674,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "PIP Bytes In DDoS Window Size",
@@ -708,7 +691,6 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -779,14 +761,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "VNET DDoS Attack Window Size",
@@ -795,9 +776,8 @@
       },
       "VNETDDOSAttackEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -1560,7 +1540,6 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -1680,14 +1659,13 @@
         "type": "string",
         "defaultValue": "PT15M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "VM Percent CPU Window Size",
@@ -1698,7 +1676,6 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -1810,14 +1787,13 @@
         "type": "string",
         "defaultValue": "PT15M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "VM Percent Memory Window Size",
@@ -1828,7 +1804,6 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -1932,14 +1907,13 @@
         "type": "string",
         "defaultValue": "PT15M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "VM Data Disk Space Window Size",
@@ -1950,7 +1924,6 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -2070,14 +2043,13 @@
         "type": "string",
         "defaultValue": "PT15M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "VM Data Disk Read Latency Window Size",
@@ -2088,7 +2060,6 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -2208,14 +2179,13 @@
         "type": "string",
         "defaultValue": "PT15M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "VM Data Disk Write Latency Window Size",
@@ -2226,7 +2196,6 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -2359,14 +2328,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "AGW Total Time Window Size",
@@ -2375,9 +2343,8 @@
       },
       "AGWApplicationGatewayTotalTimeEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -2440,14 +2407,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "AGW Backend Last Byte Response Time Window Size",
@@ -2456,9 +2422,8 @@
       },
       "AGWBackendLastByteResponseTimeEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -2508,14 +2473,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "AGW Capacity Units Window Size",
@@ -2524,9 +2488,8 @@
       },
       "AGWCapacityUnitsEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -2576,14 +2539,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "AGW Compute Units Window Size",
@@ -2592,9 +2554,8 @@
       },
       "AGWComputeUnitsEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -2644,14 +2605,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "AGW CPU Util Window Size",
@@ -2660,9 +2620,8 @@
       },
       "AGWCPUUtilEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -2725,14 +2684,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "AGW Failed Requests Window Size",
@@ -2741,9 +2699,8 @@
       },
       "AGWFailedRequestsEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -2806,14 +2763,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "AGW Response Status Window Size",
@@ -2822,9 +2778,8 @@
       },
       "AGWResponseStatusEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -2874,14 +2829,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "AGW Unhealthy Host Count Window Size",
@@ -2890,9 +2844,8 @@
       },
       "AGWUnhealthyHostCountEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -2942,14 +2895,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "LB Data path Availability Window Size",
@@ -2958,9 +2910,8 @@
       },
       "LBDatapathAvailabilityEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -3010,14 +2961,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "LB Global Backend Availability Window Size",
@@ -3026,9 +2976,8 @@
       },
       "LBGlobalBackendAvailabilityEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -3078,14 +3027,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "LB Health Probe Status Window Size",
@@ -3094,9 +3042,8 @@
       },
       "LBHealthProbeStatusEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -3146,14 +3093,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "LB Used SNAT Ports Window Size",
@@ -3162,9 +3108,8 @@
       },
       "LBUsedSNATPortsEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -3214,14 +3159,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "CDN Origin Health Percentage Window Size",
@@ -3230,9 +3174,8 @@
       },
       "CDNPOriginHealthPercentageEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -3282,14 +3225,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "CDN Origin Latency Window Size",
@@ -3298,9 +3240,8 @@
       },
       "CDNPOriginLatencyEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -3350,14 +3291,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "CDN Percentage 4XX Window Size",
@@ -3366,9 +3306,8 @@
       },
       "CDNPPercentage4XXEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -3418,14 +3357,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "CDN Percentage 5XX Window Size",
@@ -3434,9 +3372,8 @@
       },
       "CDNPPercentage5XXEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -3486,14 +3423,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "TM Enpoint Health Window Size",
@@ -3502,9 +3438,8 @@
       },
       "TMEndpointHealthEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -3554,14 +3489,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "WSF CPU Percentage Window Size",
@@ -3570,9 +3504,8 @@
       },
       "WSFCPUPercentageEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -3622,14 +3555,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "WSF Memory Percentage  Window Size",
@@ -3638,9 +3570,8 @@
       },
       "WSFMemoryPercentageEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -3690,14 +3621,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "WSF Disk Queue Lenght Window Size",
@@ -3706,9 +3636,8 @@
       },
       "WSFDiskQueueLengthEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -3758,14 +3687,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "WSF HTTP Queue Lenght Window Size",
@@ -3774,9 +3702,8 @@
       },
       "WSFHttpQueueLengthEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -3826,14 +3753,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "FD Backend Health Window Size",
@@ -3842,9 +3768,8 @@
       },
       "FDBackendHealthEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
@@ -3894,14 +3819,13 @@
         "type": "string",
         "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
           "PT1H",
           "PT6H",
           "PT12H",
-          "P1D"
+          "PT24H"
         ],
         "metadata": {
           "displayName": "FD Backend Request Latency Window Size",
@@ -3910,9 +3834,8 @@
       },
       "FDBackendRequestLatencyEvaluationFrequency": {
         "type": "string",
-        "defaultValue": "PT1M",
+        "defaultValue": "PT5M",
         "allowedValues": [
-          "PT1M",
           "PT5M",
           "PT15M",
           "PT30M",
