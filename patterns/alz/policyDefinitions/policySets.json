@@ -5,7 +5,7 @@
     "_generator": {
       "name": "bicep",
       "version": "0.48.1.52935",
-      "templateHash": "5643691498817917367"
+      "templateHash": "16928208201422357779"
     }
   },
   "parameters": {
@@ -1493,14 +1493,13 @@
             "type": "string",
             "defaultValue": "PT15M",
             "allowedValues": [
-              "PT1M",
               "PT5M",
               "PT15M",
               "PT30M",
               "PT1H",
               "PT6H",
               "PT12H",
-              "P1D"
+              "PT24H"
             ],
             "metadata": {
               "displayName": "VM Data Disk Read Latency Window Size",
@@ -3868,14 +3867,13 @@
             "type": "string",
             "defaultValue": "PT15M",
             "allowedValues": [
-              "PT1M",
               "PT5M",
               "PT15M",
               "PT30M",
               "PT1H",
               "PT6H",
               "PT12H",
-              "P1D"
+              "PT24H"
             ],
             "metadata": {
               "displayName": "Hybrid VM Data Disk Read Latency Window Size",
@@ -8844,14 +8842,13 @@
             "type": "string",
             "defaultValue": "PT15M",
             "allowedValues": [
-              "PT1M",
               "PT5M",
               "PT15M",
               "PT30M",
               "PT1H",
               "PT6H",
               "PT12H",
-              "P1D"
+              "PT24H"
             ],
             "metadata": {
               "displayName": "VMSS Data Disk Read Latency Window Size",
@@ -11906,14 +11903,13 @@
             "type": "string",
             "defaultValue": "PT15M",
             "allowedValues": [
-              "PT1M",
               "PT5M",
               "PT15M",
               "PT30M",
               "PT1H",
               "PT6H",
               "PT12H",
-              "P1D"
+              "PT24H"
             ],
             "metadata": {
               "displayName": "VM Data Disk Read Latency Window Size",
